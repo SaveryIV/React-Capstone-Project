@@ -1,24 +1,17 @@
-import logo from './logo.svg';
+/* eslint-disable import/no-extraneous-dependencies */
+import { Route, Routes } from 'react-router-dom';
+import Heroes from './components/Heroes';
+import CardHeroes from './components/CardHeroes';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Heroes />} />
+        <Route path="/missions" element={<CardHeroes />} />
+      </Routes>
+    </>
   );
 }
 
