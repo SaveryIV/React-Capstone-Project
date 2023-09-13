@@ -52,6 +52,7 @@ Currently, this website only follows a small wireframe with no real functionalit
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
+[Video Link](https://www.loom.com/share/17b8b176c4aa4c39be1b174bbd1db035?sid=f2b9c6bd-2cb8-4f4c-8f0c-16141a7ba899)
 [Link](https://deploy-preview-2--chic-platypus-aeae71.netlify.app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
