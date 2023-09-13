@@ -52,7 +52,7 @@ Currently, this website only follows a small wireframe with no real functionalit
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-N/A
+	[link](https://deploy-preview-2--chic-platypus-aeae71.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
