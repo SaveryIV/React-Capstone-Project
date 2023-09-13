@@ -15,13 +15,13 @@ const initialState = {
   heroes: [],
 };
 
-const URL = 'https://gateway.marvel.com:443/v1/public/characters?ts=1&apikey=03248abd63964b8cda72cfeaaf01a1eb&hash=76ffadfa117d76db60ef47d6f1409938';
+const URL = 'https://gateway.marvel.com:443/v1/public/characters?limit=100&ts=1&apikey=03248abd63964b8cda72cfeaaf01a1eb&hash=76ffadfa117d76db60ef47d6f1409938';
 
 export const fetchHeroes = createAsyncThunk('heroes/fetchHeroes', async () => {
   const resp = await axios(URL);
   return resp.data.data.results;
 });
-
+// fijarse video en mi whatsapp
 const heroesSlice = createSlice({
   name: 'heroes',
   initialState,
