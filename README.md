@@ -1,70 +1,173 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <h1><b>React Capstone Project</b></h1>
+</div>
 
-## Available Scripts
+# 📗 Table of Contents
 
-In the project directory, you can run:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+  - [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-### `npm start`
+<!-- PROJECT DESCRIPTION -->
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# 🕹️ React Capstone Project! <a name="about-project"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This project is dedicated to crafting a webapp using REACT.js, Redux to save in a local store information extracted from a Marvel API.
 
-### `npm test`
+## 🛠 Built With <a name="built-with"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Tech Stack <a name="tech-stack"></a>
+Website dispaly displays a leaderboard, using:
+- Javascript
+- HTML
+- CSS
+- Webpack
+- REST APIs
 
-### `npm run build`
+<!-- Features -->
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Key Features <a name="key-features"></a>
+Currently, this website only follows a small wireframe with no real functionality or features!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- LIVE DEMO -->
 
-### `npm run eject`
+## 🚀 Live Demo <a name="live-demo"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+N/A
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<!-- GETTING STARTED -->
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 💻 Getting Started <a name="getting-started"></a>
 
-## Learn More
+- To get a local copy up and running, follow these steps.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Prerequisites
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+In order to run this project you need:
+- Node.js and git on your local computer.
+ 
+### Setup
 
-### Code Splitting
+- Clone this repository to your desired folder:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Example commands:
 
-### Analyzing the Bundle Size
+```sh
+  git https://github.com/SaveryIV/Javascript-Capstone-Project.git
+  cd Javascript-Capstone-Project
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Install
 
-### Making a Progressive Web App
+- Run:
+```sh
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Usage
 
-### Advanced Configuration
+- In order to run this project, clone this repository to your PC and open a terminal, then use:
+```sh
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Run tests
+
+If you are facing linter errors, use:
+
+- For Hintrc:
+
+```
+npx hint .
+```
+
+- For Stylelint:
+
+```
+npx stylelint "**/*.{css}"
+```
+
+- For ESlint:
+
+```
+npx eslint .
+```
 
 ### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- The website hasn't been deployed
 
-### `npm run build` fails to minify
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  <!-- AUTHORS -->
+
+## 👥 Author <a name="authors"></a>
+👤 *Agustin Soria*
+
+- GitHub: [@Agustin-Soria](https://github.com/SaveryIV)
+- LinkedIn: [Agustin Soria](https://www.linkedin.com/in/agust%C3%ADn-ricardo-soria-meza-979747228/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- Adding more heroes
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [Isues Pages](https://github.com/SaveryIV/Javascript-Capstone-Project/issues)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project kindly give it a star⭐️.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to thank [Microverse](https://github.com/microverseinc) for the immense support.
+The actual designer is [Nelson Sakwa](https://www.behance.net/sakwadesignstudio).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+N/A
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
