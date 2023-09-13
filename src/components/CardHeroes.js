@@ -67,7 +67,5 @@ function CardHeroes() {
     </>
   );
 }
-// http://marvel.com/comics/characters/1011334/3-d_man?utm_campaign=apiRef&utm_source=03248abd63964b8cda72cfeaaf01a1eb
 
-// http://marvel.com/characters/74/3-d_man?utm_campaign=apiRef&utm_source=03248abd63964b8cda72cfeaaf01a1eb
 export default CardHeroes;
