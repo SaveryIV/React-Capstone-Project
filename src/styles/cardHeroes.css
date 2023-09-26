@@ -1,0 +1,32 @@
+.hero-card {
+  padding: 2rem;
+}
+
+.hero-info {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.lists {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 5px;
+}
+
+.lists li {
+  border: 2px solid wheat;
+}
+
+.hero-card .hero-img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  text-align: center;
+}
+
+.hero-card span,
+.hero-card p {
+  color: rgb(94, 196, 196);
+  font-weight: bold;
+}
