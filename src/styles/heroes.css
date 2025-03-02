@@ -20,6 +20,10 @@
   width: 45vw;
 }
 
+.heroe {
+  margin-bottom: 15px;
+}
+
 .search {
   display: flex;
   align-items: center;
